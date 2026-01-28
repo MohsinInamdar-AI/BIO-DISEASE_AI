@@ -1,0 +1,10 @@
+# Data
+training/dataset.csv
+
+# Models
+models/*.joblib
+
+# Python
+__pycache__/
+*.pyc
+.venv/
