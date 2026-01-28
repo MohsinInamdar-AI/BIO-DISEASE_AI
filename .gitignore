@@ -1,10 +1,65 @@
-# Data
-training/dataset.csv
-
-# Models
-models/*.joblib
-
+# ===============================
 # Python
+# ===============================
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+# Virtual environments
 .venv/
+venv/
+env/
+
+# ===============================
+# Machine Learning artifacts
+# ===============================
+# Trained models
+backend/models/*.joblib
+backend/models/*.pkl
+
+# ===============================
+# Datasets (large files)
+# ===============================
+training/dataset.csv
+docs/*.csv
+docs/*.tsv
+docs/*.zip
+
+# ===============================
+# Streamlit
+# ===============================
+.streamlit/
+
+# ===============================
+# FastAPI / logs
+# ===============================
+*.log
+
+# ===============================
+# OS-specific
+# ===============================
+# Windows
+Thumbs.db
+desktop.ini
+
+# macOS
+.DS_Store
+
+# ===============================
+# IDEs / Editors
+# ===============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===============================
+# Git
+# ===============================
+# Vim swap files
+.git/*.swp
+.git/*.swo
